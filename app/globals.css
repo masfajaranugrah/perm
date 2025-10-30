@@ -1,0 +1,457 @@
+body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: white;
+        }
+
+  
+
+
+        .logo-box {
+            background: white;
+            padding: 8px 12px;
+            border-radius: 5px;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .barcode {
+            width: 40px;
+            height: 30px;
+            background: linear-gradient(90deg, 
+                #000 0%, #000 5%, 
+                #fff 5%, #fff 10%,
+                #000 10%, #000 15%,
+                #fff 15%, #fff 18%,
+                #0066cc 18%, #0066cc 22%,
+                #fff 22%, #fff 25%,
+                #000 25%, #000 30%,
+                #fff 30%, #fff 35%,
+                #000 35%, #000 40%,
+                #fff 40%, #fff 100%
+            );
+        }
+
+        .library-text {
+            color: #333;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .header-title {
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .grade-badge {
+            background: white;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: bold;
+            color: #2c3e7d;
+            border: 3px solid #ffb347;
+        }
+
+        .custom-nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .user-btn {
+            background: #f5a623;
+            color: #2c3e7d;
+            padding: 10px 25px;
+            border-radius: 25px;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        /* Decorative Pattern */
+        .decorative-pattern {
+            background-image: url('https://library.ums.ac.id/wp-content/uploads/2023/02/bg-body-topd.png');
+            background-position: top center;
+            background-size: cover;
+            padding: 100px 24px;
+            margin-top: -40px;
+            margin-bottom: -120px;
+        }
+
+        .custom-header {
+            top: 0;
+            margin-bottom: 0;
+            padding: 20px;
+        }
+
+        /* Main Title */
+        .main-title {
+            text-align: center;
+            color: #2c3e7d;
+            font-size: 32px;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+
+        /* Search Container */
+        .search-container {
+            background: linear-gradient(135deg, #f5a623 0%, #f7b84d 100%);
+            padding: 30px 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .search-subtitle {
+            color: white;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+
+        .search-box .form-control {
+            padding: 15px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .search-box .btn {
+            background: #2c3e7d;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+ /* === REPUTASI SECTION === */
+    .reputasi-section {
+       padding: 3rem 1rem;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .reputasi-title {
+      color: #004080;
+      font-weight: 700;
+      margin-bottom: 2rem;
+    }
+
+    .reputasi-card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+      padding: 2rem 1rem;
+      transition: 0.3s;
+      display: flex;
+  flex-direction: column;
+  align-items: center; /* agar isi (termasuk gambar) di tengah */
+    }
+
+    .reputasi-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .badge-icon img {
+      width: 100px;
+      height: 100px;
+      object-fit: contain;
+      margin-bottom: 1rem;
+    }
+
+    .reputasi-text {
+      font-weight: 600;
+      color: #333;
+      margin: 0;
+    }
+
+    .reputasi-text .subtitle {
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+
+        /* Menu Items */
+        .menu-item {
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.3s;
+            padding: 15px;
+        }
+
+        .menu-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .icon-box {
+            width: 100px;
+            height: 100px;
+            margin: 0 auto 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .menu-item svg {
+            width: 70px;
+            height: 70px;
+        }
+
+        .menu-label {
+            color: #333;
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        /* Footer */
+        .custom-footer {
+            background-color: #263c8c;
+            color: #fff;
+            padding: 40px 60px 20px;
+            border-top-left-radius: 60px;
+            overflow: hidden;
+        }
+
+        .footer-text h3 {
+            margin: 0;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        .footer-text p {
+            margin: 4px 0;
+            font-size: 0.95rem;
+        }
+
+        .footer-right p {
+            margin: 4px 0;
+            font-size: 0.95rem;
+        }
+
+        .footer-call {
+            color: #ffb400;
+            font-weight: bold;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            margin-top: 20px;
+            padding-top: 10px;
+            font-size: 0.9rem;
+            color: #d3d3d3;
+        }
+
+        @media (max-width: 768px) {
+            .main-title {
+                font-size: 28px;
+            }
+
+            .reputasi-title {
+                font-size: 24px;
+            }
+
+            .badge-icon {
+                width: 100px;
+                height: 100px;
+            }
+
+            .reputasi-text {
+                font-size: 14px;
+            }
+
+            .menu-item svg {
+                width: 60px;
+                height: 60px;
+            }
+
+            .menu-label {
+                font-size: 12px;
+            }
+        }
+
+ 
+
+        .custom-header {
+          background:   #1e40af;
+          transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+          box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+          position: fixed;
+          top: 0;
+          
+          width: 100%;
+          z-index: 1000;
+          padding: 1rem 0;
+        }
+        
+        .custom-header.scrolled {
+          background: #1e40af;
+          box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+         }
+        
+        .navbar-brand {
+          transition: all 0.3s ease;
+          display: inline-block;
+        }
+        
+        .navbar-brand:hover {
+          transform: scale(1.05);
+          filter: brightness(1.1);
+        }
+        
+        .logo-img {
+          width: 200px;
+          height: auto;
+          filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.2));
+          transition: all 0.3s ease;
+        }
+        
+        .scrolled .logo-img {
+          width: 160px;
+        }
+        
+        .navbar-nav {
+          gap: 0.5rem;
+        }
+        
+        .nav-link {
+          color: rgba(255, 255, 255, 0.95) !important;
+          font-weight: 500;
+          font-size: 1rem;
+          position: relative;
+          padding: 0.5rem 1rem !important;
+          transition: all 0.3s ease;
+          border-radius: 8px;
+        }
+        
+        .nav-link::before {
+          content: '';
+          position: absolute;
+          bottom: 5px;
+          left: 50%;
+          width: 0;
+          height: 3px;
+          background: linear-gradient(90deg, #fbbf24, #f59e0b);
+          transform: translateX(-50%);
+          transition: width 0.3s ease;
+          border-radius: 2px;
+        }
+        
+        .nav-link:hover {
+          color: #ffffff !important;
+          background: rgba(255, 255, 255, 0.1);
+          transform: translateY(-2px);
+        }
+        
+        .nav-link:hover::before {
+          width: 70%;
+        }
+        
+        .btn-user {
+          background: linear-gradient(135deg, rgba(251, 191, 36, 0.9), rgba(245, 158, 11, 0.9));
+          border: none;
+          color: #1e3a8a;
+          font-weight: 700;
+          padding: 0.6rem 2rem;
+          border-radius: 50px;
+          transition: all 0.3s ease;
+          box-shadow: 0 4px 15px rgba(251, 191, 36, 0.4);
+          font-size: 0.95rem;
+          letter-spacing: 0.5px;
+        }
+        
+        .btn-user:hover {
+          background: linear-gradient(135deg, #fbbf24, #f59e0b);
+          transform: translateY(-3px);
+          box-shadow: 0 8px 25px rgba(251, 191, 36, 0.6);
+          color: #1e3a8a;
+        }
+        
+        .btn-user:active {
+          transform: translateY(-1px);
+        }
+        
+        .navbar-toggler {
+          border: 2px solid rgba(255, 255, 255, 0.6);
+          padding: 0.5rem 0.75rem;
+          transition: all 0.3s ease;
+          border-radius: 8px;
+        }
+        
+        .navbar-toggler:hover {
+          background: rgba(255, 255, 255, 0.15);
+          border-color: white;
+        }
+        
+        .navbar-toggler:focus {
+          box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.3);
+          outline: none;
+        }
+        
+        .navbar-toggler-icon {
+          filter: brightness(2);
+        }
+        
+        @media (max-width: 991px) {
+          .navbar-collapse {
+            background:  rgba(37, 99, 235, 0.98);
+            margin-top: 1rem;
+            padding: 1.5rem;
+            border-radius: 16px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+          }
+          
+          .navbar-nav {
+            gap: 0.5rem;
+          }
+          
+          .nav-link {
+            text-align: center;
+            padding: 0.75rem 1rem !important;
+          }
+          
+          .nav-link::before {
+            display: none;
+          }
+          
+          .nav-link:hover {
+            background: rgba(255, 255, 255, 0.15);
+          }
+          
+          .btn-user {
+            width: 100%;
+            margin-top: 0.5rem;
+            padding: 0.75rem 2rem;
+          }
+          
+          .logo-img {
+            width: 160px;
+          }
+          
+          .scrolled .logo-img {
+            width: 140px;
+          }
+        }
+        
+        @media (max-width: 576px) {
+          .custom-header {
+            padding: 0.75rem 0;
+          }
+          
+          .logo-img {
+            width: 140px;
+          }
+          
+          .scrolled .logo-img {
+            width: 120px;
+          }
+        }
