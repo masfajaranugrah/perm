@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d041d912bd9a288a854f95cd98b7094ce2fb998f28ee72efb92fe5b220ee5cb3
-size 525
+import React from "react";
+import "../public/assets/css/bootstrap.min.css";
+ 
+export const metadata = {
+  title: "Perpustakaan UMS",
+  description: "Sistem Informasi Perpustakaan Universitas Muhammadiyah Surakarta",
+};
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="id">
+      <body>
+        {children}
+
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+      </body>
+      
+    </html>
+  );
+}
