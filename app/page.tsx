@@ -70,7 +70,7 @@ export default function Page() {
       <div style={{marginTop: "30px"}} className="decorative-pattern"></div>
 
       {/* === MAIN CONTENT === */}
-      <div style={{marginTop: "80px"}} className="container py-5">
+     <div style={{marginTop: "80px"}} className="container py-5">
         <h1 className="main-title">Layanan Kami</h1>
         
         <div className="row justify-content-center mb-5">
@@ -91,144 +91,85 @@ export default function Page() {
             </div>
         </div>
 
-         <div className="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-4 mb-5">
-            <div className="col">
-                <div className="menu-item">
-                    <div className="icon-box">
-                        <svg viewBox="0 0 100 100" fill="none" stroke="#333" strokeWidth="2">
-                            <rect x="20" y="70" width="60" height="5" fill="#333"/>
-                            <rect x="25" y="35" width="5" height="35" fill="#333"/>
-                            <rect x="42" y="35" width="5" height="35" fill="#333"/>
-                            <rect x="59" y="35" width="5" height="35" fill="#333"/>
-                            <rect x="70" y="35" width="5" height="35" fill="#333"/>
-                            <path d="M20 35 L50 15 L80 35" fill="none" strokeWidth="3"/>
-                        </svg>
-                    </div>
-                    <div className="menu-label">DASHBOARD</div>
-                </div>
-            </div>
-
-            <div className="col">
-                <div className="menu-item">
-                    <div className="icon-box">
-                        <svg viewBox="0 0 100 100" fill="none" stroke="#333" strokeWidth="2">
-                            <rect x="25" y="50" width="15" height="30" fill="#333"/>
-                            <rect x="45" y="35" width="15" height="45" fill="#333"/>
-                            <rect x="65" y="20" width="15" height="60" fill="#d32f2f"/>
-                        </svg>
-                    </div>
-                    <div className="menu-label">KOLEKSI</div>
-                </div>
-            </div>
-
-            <div className="col">
-                <div className="menu-item">
-                    <div className="icon-box">
-                        <svg viewBox="0 0 100 100" fill="none" stroke="#333" strokeWidth="2">
-                            <rect x="25" y="35" width="50" height="35" rx="5" strokeWidth="3"/>
-                            <path d="M35 45 L45 55 L65 35" fill="none" strokeWidth="3"/>
-                            <circle cx="35" cy="25" r="3" fill="#d32f2f"/>
-                            <circle cx="50" cy="25" r="3" fill="#d32f2f"/>
-                            <circle cx="65" cy="25" r="3" fill="#d32f2f"/>
-                        </svg>
-                    </div>
-                    <div className="menu-label">TRANSAKSI</div>
-                </div>
-            </div>
-
-            <div className="col">
-                <div className="menu-item">
-                    <div className="icon-box">
-                        <svg viewBox="0 0 100 100" fill="none" stroke="#333" strokeWidth="2">
-                            <circle cx="50" cy="35" r="12" strokeWidth="3"/>
-                            <path d="M35 75 Q35 55 50 55 Q65 55 65 75" strokeWidth="3" fill="none"/>
-                            <rect x="35" y="75" width="30" height="5" fill="#333"/>
-                        </svg>
-                    </div>
-                    <div className="menu-label">USER</div>
-                </div>
-            </div>
-
-            <div className="col">
-                <div className="menu-item">
-                    <div className="icon-box">
-                        <svg viewBox="0 0 100 100" fill="none" stroke="#333" strokeWidth="2">
-                            <rect x="25" y="25" width="50" height="50" rx="3" strokeWidth="3"/>
-                            <circle cx="35" cy="45" r="2" fill="#d32f2f"/>
-                            <circle cx="50" cy="45" r="2" fill="#d32f2f"/>
-                            <circle cx="65" cy="45" r="2" fill="#d32f2f"/>
-                            <circle cx="35" cy="55" r="2" fill="#d32f2f"/>
-                            <circle cx="50" cy="55" r="2" fill="#d32f2f"/>
-                            <circle cx="65" cy="55" r="2" fill="#d32f2f"/>
-                            <circle cx="35" cy="65" r="2" fill="#d32f2f"/>
-                            <circle cx="50" cy="65" r="2" fill="#d32f2f"/>
-                        </svg>
-                    </div>
-                    <div className="menu-label">AGENDA</div>
-                </div>
-            </div>
+        {/* ======= Layanan ======= */}
+  <div className="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-4 mb-5 text-center">
+    
+    {/* KOHA */}
+    <div className="col">
+      <a href="https://koha-lib.ums.ac.id" target="_blank" rel="noopener noreferrer">
+        <div className="menu-item">
+          <div className="icon-box">
+            <img width="50" height="50" src="https://img.icons8.com/ios/50/book--v1.png" alt="book--v1"/>
+          </div>
+          <div className="menu-label">KOHA</div>
         </div>
+      </a>
+    </div>
 
-         <div className="row row-cols-2 row-cols-md-4 g-4 mb-5 justify-content-center">
-            <div className="col">
-                <div className="menu-item">
-                    <div className="icon-box">
-                        <svg viewBox="0 0 100 100" fill="none" stroke="#333" strokeWidth="2">
-                            <rect x="30" y="20" width="40" height="55" rx="2" strokeWidth="3"/>
-                            <line x1="37" y1="30" x2="63" y2="30" strokeWidth="2"/>
-                            <line x1="37" y1="40" x2="63" y2="40" strokeWidth="2"/>
-                            <line x1="37" y1="50" x2="63" y2="50" strokeWidth="2"/>
-                            <line x1="37" y1="60" x2="50" y2="60" strokeWidth="2"/>
-                        </svg>
-                    </div>
-                    <div className="menu-label">DASHBOARD</div>
-                </div>
-            </div>
-
-            <div className="col">
-                <div className="menu-item">
-                    <div className="icon-box">
-                        <svg viewBox="0 0 100 100" fill="none" stroke="#333" strokeWidth="2">
-                            <circle cx="50" cy="50" r="25" strokeWidth="3"/>
-                            <line x1="30" y1="50" x2="70" y2="50" strokeWidth="2"/>
-                            <line x1="50" y1="30" x2="50" y2="70" strokeWidth="2"/>
-                            <path d="M35 35 Q50 25 65 35" fill="none" strokeWidth="2"/>
-                            <path d="M35 65 Q50 75 65 65" fill="none" strokeWidth="2"/>
-                        </svg>
-                    </div>
-                    <div className="menu-label">DASHBOARD</div>
-                </div>
-            </div>
-
-            <div className="col">
-                <div className="menu-item">
-                    <div className="icon-box">
-                        <svg viewBox="0 0 100 100" fill="none" stroke="#333" strokeWidth="2">
-                            <path d="M30 50 L45 35 L45 50 L55 50 L55 35 L70 50 L70 65 Q70 70 65 70 L35 70 Q30 70 30 65 Z" strokeWidth="3"/>
-                            <path d="M75 40 Q80 35 85 40 L85 55 Q85 60 80 60 L75 60" stroke="#d32f2f" strokeWidth="2" fill="none"/>
-                            <circle cx="82" cy="47" r="2" fill="#d32f2f"/>
-                        </svg>
-                    </div>
-                    <div className="menu-label">DASHBOARD</div>
-                </div>
-            </div>
-
-            <div className="col">
-                <div className="menu-item">
-                    <div className="icon-box">
-                        <svg viewBox="0 0 100 100" fill="none" stroke="#333" strokeWidth="2">
-                            <circle cx="50" cy="50" r="28" strokeWidth="3"/>
-                            <circle cx="50" cy="50" r="15" strokeWidth="3"/>
-                            <line x1="50" y1="22" x2="50" y2="35" strokeWidth="3"/>
-                            <line x1="78" y1="50" x2="65" y2="50" strokeWidth="3"/>
-                            <line x1="50" y1="78" x2="50" y2="65" strokeWidth="3"/>
-                            <line x1="22" y1="50" x2="35" y2="50" strokeWidth="3"/>
-                        </svg>
-                    </div>
-                    <div className="menu-label">DASHBOARD</div>
-                </div>
-            </div>
+    {/* OPAC */}
+    <div className="col">
+      <a href="https://search-lib.ums.ac.id" target="_blank" rel="noopener noreferrer">
+        <div className="menu-item">
+          <div className="icon-box">
+           <img width="64" height="64" src="https://img.icons8.com/pastel-glyph/64/search--v1.png" alt="search--v1"/>
+          </div>
+          <div className="menu-label">OPAC</div>
         </div>
+      </a>
+    </div>
+
+    {/* TROLLY */}
+    <div className="col">
+      <a href="https://my-lib.ums.ac.id" target="_blank" rel="noopener noreferrer">
+        <div className="menu-item">
+          <div className="icon-box">
+           <img width="44" height="44" src="https://img.icons8.com/external-pixer-icons-pack-dmitry-mirolyubov/44/external-cart-retail-pixer-icons-pack-dmitry-mirolyubov.png" alt="external-cart-retail-pixer-icons-pack-dmitry-mirolyubov"/>
+          </div>
+          <div className="menu-label">TROLLY</div>
+        </div>
+      </a>
+    </div>
+
+    {/* REPOSITORY */}
+    <div className="col">
+      <a href="https://eprints.ums.ac.id" target="_blank" rel="noopener noreferrer">
+        <div className="menu-item">
+          <div className="icon-box">
+            <img width="50" height="50" src="https://img.icons8.com/ios/50/repository.png" alt="repository"/>
+          </div>
+          <div className="menu-label">Repository</div>
+        </div>
+      </a>
+    </div>
+
+    {/* UNGGAH */}
+    <div className="col">
+      <a href="https://unggah-lib.ums.ac.id" target="_blank" rel="noopener noreferrer">
+        <div className="menu-item">
+          <div className="icon-box">
+<img width="48" height="48" src="https://img.icons8.com/fluency-systems-regular/48/upload--v1.png" alt="upload--v1"/>          </div>
+          <div className="menu-label">UNGGAH</div>
+        </div>
+      </a>
+    </div>
+  
+    {/* VIRTUAL TOUR */}
+  <div className="col-6 col-md-4 col-lg-12 d-lg-flex justify-content-center">
+    <a
+      href="https://library.ums.ac.id/virtual-tour-perpus-ums/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <div className="menu-item">
+        <div className="icon-box">
+<img width="40" height="40" src="https://img.icons8.com/metro/26/virtual-machine.png" alt="virtual-machine"/>
+ </div>
+        <div className="menu-label">Virtual Tour</div>
+      </div>
+    </a>
+  </div>
+  </div>
+ 
 
      <div className="reputasi-section">
       <h2 className="reputasi-title">Reputasi Perpustakaan</h2>
@@ -257,7 +198,7 @@ export default function Page() {
         </div>
       </div>
     </div>
-  </div>
+  </div> 
 
       {/* === FOOTER === */}
        <footer className="custom-footer">
